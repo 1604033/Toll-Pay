@@ -1,0 +1,31 @@
+<?php
+session_start();
+re
+
+<!DOCTYPE html>
+<html>
+<head>
+	<head>
+	<title>Signup page</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+</head>
+<body bgcolor="lightblue">
+	<header style="background-color: white; color: red; text-align: left; font-size: 30px;">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li>Login</li>
+			</ul>
+		</nav>
+	</header>
+	<background-img src="Jamuna.jpg" width="850px"height="550px">
+<form>
+			<pre><a class="input-style"> Vehicle type: <input class="input-style1" type="text" name="vtype"></a></pre>
+			<pre><a class="input-style">Driver's name: <input class="input-style1" type="text" name="dname"></a></pre>
+			<pre><a class="input-style">  License No.: <input class="input-style1" type="number" name="License"></a></pre>
+			<pre><a class="input-style">     Password: <input class="input-style1" type="password" name="pass"></a></pre>
+			<button class="signup-style" style="border-radius: 50%;" ><a href="#"> Submit </a></button></a>
+
+</form>

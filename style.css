@@ -1,0 +1,89 @@
+/*selector{
+	property:value;
+}*/
+body{
+	background-image: none;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	color: green;
+}
+div {
+	background-image: url(Jamuna.jpg) ;
+	background-attachment: fixed ; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: center;
+	color:red;
+	opacity: 0.6;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+p{
+	color: pink;
+	line-height: 40px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "times new roman",georgia;
+
+}
+p2{
+	background-image: url(background.jpg);
+	background-size: cover;
+	
+	color:black;
+	text-align: center;
+	font-size: 30px;
+	border: 2px; solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+h2{
+	background-image: none;
+	background-size: cover;
+	background-color: rgb(69,147,147);
+	color:red;
+	text-align: center;
+	font-size: 30px;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+h3{
+	background-image: none;
+	background-size: cover;
+	background-color: rgb(69,147,147);
+	color:red;
+	text-align: center;
+	font-size: 35px;
+	border: 5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+
+}
+p{
+	color: yellow;
+}
+img{
+	vertical-align: middle;
+	object-position: center;
+	display: block; margin-left: auto; margin-right: auto;
+}
+footer{
+	
+	clear:both;
+	text-align: left;
+	font-size: 20px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+.pa{
+	margin: 100px;
+	height: 500px;
+	width: 900px;
+	text-align: center;
+	padding: top 50px;
+	text-align: center;
+}
